@@ -1,15 +1,17 @@
 function ParImpar() {
 
-    let numero = [];
+    let numero = parseInt(prompt("Digite um número inteiro:"));
+    let resultado;
 
-    numero.push(Number(prompt("Digite um número: ")));
+    if (numero % 2 === 0) {
 
-    if (numero %  0) {
-        numero + 1;
+        resultado = numero + 1;
+        alert("Valor final ÍMPAR : " + resultado);
+
+    } else {
+
+        resultado = numero + 1;
+        alert("Valor final PAR : " + resultado);
     }
-     else {
-        numero + 1;
-    }
 
-    
 }
